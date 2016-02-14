@@ -5,7 +5,7 @@ var jshint = require('gulp-jshint');
 var jscs = require('gulp-jscs');
 var gulpMocha = require('gulp-mocha');
 
-var srcJs = ['*.js', 'bin/**'];
+var srcJs = ['*.js'];
 var testJs = ['test/**/*.js'];
 var allJs = srcJs.concat(testJs);
 

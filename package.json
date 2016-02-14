@@ -1,31 +1,30 @@
 {
-  "name": "resx-to-json",
+  "name": "gulp-resx-to-json",
   "version": "0.1.1",
-  "description": "Converts .resx files containing localized strings to JSON format",
+  "description": "Gulp Task for converting .resx files containing localized strings to JSON format",
   "main": "./index.js",
   "bin": {
-    "resx-to-json": "./bin/resx-to-json"
   },
   "scripts": {
     "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jwittevrongel/resx-to-json.git"
+    "url": "git+https://github.com/jwittevrongel/gulp-resx-to-json.git"
   },
   "keywords": [
     "resx",
-    "json"
+    "json",
+    "gulpplugin"
   ],
   "author": "Jeremiah Wittevrongel",
   "license": "BSD-3-Clause",
   "bugs": {
-    "url": "https://github.com/jwittevrongel/resx-to-json/issues"
+    "url": "https://github.com/jwittevrongel/gulp-resx-to-json/issues"
   },
-  "homepage": "https://github.com/jwittevrongel/resx-to-json#readme",
+  "homepage": "https://github.com/jwittevrongel/gulp-resx-to-json#readme",
   "dependencies": {
-    "lodash": "^4.0.0",
-    "xml2js": "^0.4.16"
+    "resx-to-json": "^0.1.0"
   },
   "devDependencies": {
     "gulp": "^3.9.0",
